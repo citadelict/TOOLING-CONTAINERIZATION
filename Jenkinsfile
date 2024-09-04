@@ -27,7 +27,7 @@ pipeline {
                     checkout([
                         $class: 'GitSCM',
                         branches: [[name: "${params.BRANCH_NAME}"]],
-                        userRemoteConfigs: [[url: 'https://github.com/francdomain/tooling_containerization.git']]
+                        userRemoteConfigs: [[url: 'https://github.com/citadelict/TOOLING-CONTAINERIZATION.git']]
                     ])
                 }
             }
