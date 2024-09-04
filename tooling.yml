@@ -15,8 +15,8 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: toolingdb
-      MYSQL_USER: francis
-      MYSQL_PASSWORD: Admin1234
+      MYSQL_USER: chidi
+      MYSQL_PASSWORD: Admin123
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
       - db:/var/lib/mysql
