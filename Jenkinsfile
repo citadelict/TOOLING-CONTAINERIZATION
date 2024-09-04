@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_REGISTRY = "docker.io"
-        DOCKER_IMAGE = "francdocmain/tooling-app"
+        DOCKER_IMAGE = "citatech/tooling-app"
         COMPOSE_FILE = "tooling.yml"
     }
 
